@@ -1,0 +1,99 @@
+.topbox{
+      padding:0;
+      margin:0 auto;
+      width:55.4%;
+      height:60px;
+      background-color: gray;
+    }
+    body{
+      margin:0;
+      padding: 0;
+      background-image: src
+    }
+    div{
+      margin: 0;
+      padding: 0;
+    }
+    .topbox ul{
+      list-style: none;
+      padding: 0 0 0 0;
+      margin:0;
+      float:left;
+    }
+    .topbox li {
+    float:left;
+    color:white;
+    border-left:1px solid #990000;
+    height:60px;
+    font-size: 2.5em;
+    list-style:none;
+    padding: 0px 20px 0px 25px;
+    }
+    .topbox a{
+      color:green;
+      text-decoration: none;
+    }
+    
+    .home:hover{
+      background-color: black;
+      border-radius: 20px;
+      border:10px ;
+    }
+    .academics:hover{
+      background-color: black;
+      border-radius: 20px;
+      border:10px ;
+    }
+    .interests:hover{
+      background-color: black;
+      border-radius: 20px;
+      border:10px ;
+    }
+    .contact:hover{
+      background-color: black;
+      border-radius: 20px;
+      border:10px ;
+    }
+    #Mainhead{
+      color:yellow;
+      font-size: 3em;
+      font-family: Impact, Charcoal, sans-serif;
+      font-weight: lighter;
+      padding-top: 30px;
+      animation-name: example;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate-reverse;
+      text-align: center;
+    }
+     @keyframes example {
+    from {color:yellow;}
+    to {color: red;}
+}
+   #photo1{
+      border:10px ;
+      float:left;
+      margin:60px;
+    }
+    #photo2{
+      border:10px ;
+      float:right;
+      margin:60px;
+    }
+    
+    #subhead{
+      color:white;
+      font-size: 2.5em;
+      font-family: 'Butterfly Kids'
+      font-weight: lighter;
+      padding-top: 20px;
+      padding-left: 30px;
+      padding-right: 30px;
+      text-align: justify;
+    }
+    
+    .sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    }
